@@ -28,5 +28,8 @@ object ListBuffer {
     // Delete by index. Exception will be thrown if no element by index.
     cars.remove(0)
 
+    // Get element by index.
+    cars(1)
+
   }
 }

@@ -28,5 +28,8 @@ object ArrayBuffer {
     // Delete by index. Exception will be thrown if no element by index.
     names.remove(0)
 
+    // Get element by index.
+    names(1)
+
   }
 }
