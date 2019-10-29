@@ -23,9 +23,13 @@ object MyList {
 
     val names = List("Denis", "Max", "")
 
-    //prepending element creating new lis
+    //prepending element creating new list
     val namesWithKevin = "Kevin" :: names
 
+    //concatenating 2 lists creating new list
+    val otherNames = List("Jack", "Black")
+
+    val combinedNames = names ++ otherNames
 
     //pattern matching on list
     names match {
