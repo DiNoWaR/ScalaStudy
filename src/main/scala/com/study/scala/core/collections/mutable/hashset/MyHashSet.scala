@@ -5,7 +5,7 @@ import scala.collection.mutable.HashSet
 /**
   * This class implements mutable sets using a hashtable.
   */
-object HashSet {
+object MyHashSet {
 
   def main(args: Array[String]): Unit = {
 

@@ -5,7 +5,7 @@ import scala.collection.mutable.TreeSet
 /**
   * A mutable sorted set implemented using a mutable red-black tree as underlying data structure.
   */
-object TreeSet {
+object MyTreeSet {
 
   def main(args: Array[String]): Unit = {
 

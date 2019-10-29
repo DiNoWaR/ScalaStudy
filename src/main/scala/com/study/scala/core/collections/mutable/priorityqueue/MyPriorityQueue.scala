@@ -12,7 +12,7 @@ import scala.collection.mutable.PriorityQueue
   * Therefore, printing a PriorityQueue will not reveal the priority order of the elements, though the highest-priority element will be printed first.
   * To print the elements in order, one must duplicate the PriorityQueue (by using clone, for instance) and then dequeue them
   */
-object PriorityQueue {
+object MyPriorityQueue {
 
   def main(args: Array[String]): Unit = {
 

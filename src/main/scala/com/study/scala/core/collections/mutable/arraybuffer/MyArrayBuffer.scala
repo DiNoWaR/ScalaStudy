@@ -6,7 +6,7 @@ import scala.collection.mutable.ArrayBuffer
   * Append, update and random access take constant time (amortized time).
   * Prepends and removes are linear in the buffer size.
   */
-object ArrayBuffer {
+object MyArrayBuffer {
 
   def main(args: Array[String]): Unit = {
 

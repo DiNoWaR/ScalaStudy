@@ -6,7 +6,7 @@ import scala.collection.mutable.ListBuffer
   * Provides constant time prepend and append.
   * Most other operations are linear.
   */
-object ListBuffer {
+object MyListBuffer {
 
   def main(args: Array[String]): Unit = {
 
