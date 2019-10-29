@@ -21,7 +21,7 @@ object MyList {
 
   def main(args: Array[String]): Unit = {
 
-    val names = List("Denis", "Max", "")
+    val names = List("Denis", "Max", "James")
 
     //prepending element creating new list
     val namesWithKevin = "Kevin" :: names
