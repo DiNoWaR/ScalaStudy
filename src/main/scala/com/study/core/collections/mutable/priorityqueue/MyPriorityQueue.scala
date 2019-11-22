@@ -19,12 +19,19 @@ object MyPriorityQueue {
     val numbers = new PriorityQueue[Int]()
 
     // enqueue one element
-    numbers += 1
+    numbers.enqueue(1)
 
     // enqueue collection
     numbers ++= List(2, 10)
 
-    //get root of heap
-    numbers.head
+    // dequeue element from root of heap
+    val item = numbers.dequeue
+
+    // dequeue all elements from root of heap, keeping the order
+    val items = numbers.dequeueAll
+
+    //get root of heap without removing it
+    val head = numbers.head
+
   }
 }
