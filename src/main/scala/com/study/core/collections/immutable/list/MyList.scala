@@ -26,10 +26,15 @@ object MyList {
     //prepending element creating new list
     val namesWithKevin = "Kevin" :: names
 
+    //appending element creating new list
+    val namesWithJosh = names ++ List("Josh")
+
     //concatenating 2 lists creating new list
     val otherNames = List("Jack", "Black")
-
     val combinedNames = names ++ otherNames
+
+    //get element by index
+    val name = names(1)
 
     //pattern matching on list
     names match {

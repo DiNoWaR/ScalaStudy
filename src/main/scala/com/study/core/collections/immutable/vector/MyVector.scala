@@ -25,9 +25,8 @@ object MyVector {
     //appending multiple elements creating new Vector
     val namesWithAppendedList = names ++ Seq("Kirk", "Lars")
 
-    //concatenating 2 vector creating new vector
+    //concatenating 2 vector creating new Vector
     val otherNames = Vector("Jack", "Black")
-
     val combinedNames = names ++ otherNames
 
   }
